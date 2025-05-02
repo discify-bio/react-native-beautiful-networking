@@ -18,7 +18,7 @@ const Provider: React.FC<PropsWithChildren<ProviderProps>> = ({
       <Portal>
         <Notification
           {...config}
-          isVisible={!!isConnected}
+          isVisible={!(!!isConnected)}
         />
       </Portal>
       {children}
