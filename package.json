@@ -83,7 +83,11 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-portalize": "*",
+    "react-native-reanimated": "*",
+    "react-native-safe-area-context": "*",
+    "@react-native-community/netinfo": "*"
   },
   "workspaces": [
     "example"

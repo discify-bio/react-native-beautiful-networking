@@ -1,3 +1,7 @@
-export function multiply(a: number, b: number): number {
-  return a * b;
+import Provider from './Provider'
+
+export {
+  Provider
 }
+
+export * from './types'
