@@ -52,6 +52,7 @@ const Notification: React.FC<NotificationProps> = ({
           zIndex
         }
       ]}
+      pointerEvents='none'
     >
       <View
         style={{
